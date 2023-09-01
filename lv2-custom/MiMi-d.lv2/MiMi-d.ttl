@@ -537,12 +537,12 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 41 ;
-        lv2:symbol "pulsewidth" ;
-        lv2:name "PulseWidth" ;
+        lv2:symbol "osc1pulsewidth" ;
+        lv2:name "Osc1PW" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1086,11 +1086,12 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 81 ;
-        lv2:symbol "pwofs" ;
-        lv2:name "PwOfs" ;
+        lv2:symbol "osc2pulsewidth" ;
+        lv2:name "Osc2PW" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
