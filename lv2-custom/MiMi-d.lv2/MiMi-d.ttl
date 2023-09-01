@@ -479,18 +479,18 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 20 ;
-        lv2:symbol "oscillator2detune" ;
-        lv2:name "Oscillator2detune" ;
+        lv2:symbol "osc2detune" ;
+        lv2:name "Osc2Detune" ;
         lv2:default 0.400000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 32 ;
-        lv2:symbol "osc2hardsync" ;
-        lv2:name "Osc2HardSync" ;
+        lv2:symbol "sync" ;
+        lv2:name "Sync" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -503,7 +503,7 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -567,12 +567,12 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 46 ;
-        lv2:symbol "noisemix" ;
-        lv2:name "NoiseMix" ;
+        lv2:symbol "noiseLvl" ;
+        lv2:name "NoiseLvl" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G404_MIXER ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -650,12 +650,12 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 44 ;
-        lv2:symbol "osc1mix" ;
-        lv2:name "Osc1Mix" ;
+        lv2:symbol "osc1lvl" ;
+        lv2:name "Osc1Lvl" ;
         lv2:default 1.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G401_OSC_1 ;
+        pg:group mimid_lv2:G404_MIXER ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -733,12 +733,12 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 45 ;
-        lv2:symbol "osc2mix" ;
-        lv2:name "Osc2Mix" ;
+        lv2:symbol "osc2lvl" ;
+        lv2:name "Osc2Lvl" ;
         lv2:default 1.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G402_OSC_2 ;
+        pg:group mimid_lv2:G404_MIXER ;
     ] ,
 
     [
@@ -1205,6 +1205,11 @@ mimid_lv2:G403_OSC_COM
 	a pg:InputGroup;
 	lv2:name "Osc Common" ;
 	lv2:symbol "g403_osc_com" .
+
+mimid_lv2:G404_MIXER
+	a pg:InputGroup;
+	lv2:name "Mixer" ;
+	lv2:symbol "g404_mixer" .
 
 mimid_lv2:G501_FLTR
 	a pg:InputGroup;
