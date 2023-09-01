@@ -478,35 +478,6 @@
 
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 20 ;
-        lv2:symbol "osc2detune" ;
-        lv2:name "Osc2Detune" ;
-        lv2:default 0.400000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G402_OSC_2 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 32 ;
-        lv2:symbol "sync" ;
-        lv2:name "Sync" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        lv2:scalePoint [
-            rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
-        ], [
-            rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
-        ];
-        pg:group mimid_lv2:G401_OSC_1 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 33 ;
         lv2:symbol "xmod" ;
         lv2:name "Xmod" ;
@@ -536,16 +507,6 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 41 ;
-        lv2:symbol "osc1pulsewidth" ;
-        lv2:name "Osc1PW" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G401_OSC_1 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 42 ;
         lv2:symbol "brightness" ;
         lv2:name "Brightness" ;
@@ -566,13 +527,22 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 46 ;
-        lv2:symbol "noiseLvl" ;
-        lv2:name "NoiseLvl" ;
+        lv2:index 32 ;
+        lv2:symbol "sync" ;
+        lv2:name "Sync" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G404_MIXER ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "OFF" ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "ON" ;
+            rdfs:comment "ON" ;
+        ];
+        pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -622,6 +592,16 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 41 ;
+        lv2:symbol "osc1pulsewidth" ;
+        lv2:name "Osc1PW" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G401_OSC_1 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 84 ;
         lv2:symbol "osc1wave" ;
         lv2:name "Osc1Wave" ;
@@ -647,15 +627,16 @@
         ];
         pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
+
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 44 ;
-        lv2:symbol "osc1lvl" ;
-        lv2:name "Osc1Lvl" ;
-        lv2:default 1.000000 ;
+        lv2:index 20 ;
+        lv2:symbol "osc2detune" ;
+        lv2:name "Osc2Detune" ;
+        lv2:default 0.400000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G404_MIXER ;
+        pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -705,6 +686,16 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 81 ;
+        lv2:symbol "osc2pulsewidth" ;
+        lv2:name "Osc2PW" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G402_OSC_2 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 85 ;
         lv2:symbol "osc2wave" ;
         lv2:name "Osc2Wave" ;
@@ -732,10 +723,30 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 44 ;
+        lv2:symbol "osc1lvl" ;
+        lv2:name "Osc1Lvl" ;
+        lv2:default 1.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G404_MIXER ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 45 ;
         lv2:symbol "osc2lvl" ;
         lv2:name "Osc2Lvl" ;
         lv2:default 1.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G404_MIXER ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 46 ;
+        lv2:symbol "noiseLvl" ;
+        lv2:name "NoiseLvl" ;
+        lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         pg:group mimid_lv2:G404_MIXER ;
@@ -1132,16 +1143,6 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 81 ;
-        lv2:symbol "osc2pulsewidth" ;
-        lv2:name "Osc2PW" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
