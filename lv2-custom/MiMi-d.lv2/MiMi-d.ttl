@@ -892,8 +892,8 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 58 ;
-        lv2:symbol "release" ;
-        lv2:name "Release" ;
+        lv2:symbol "sustaintime" ;
+        lv2:name "SustainTime" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -932,12 +932,32 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 62 ;
-        lv2:symbol "filterrelease" ;
-        lv2:name "FilterRelease" ;
+        lv2:symbol "filtersustaintime" ;
+        lv2:name "FilterSustainTime" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         pg:group mimid_lv2:G601_FLTR_ENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 86 ;
+        lv2:symbol "filterrelase" ;
+        lv2:name "FilterRelease" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G603_RELEASE ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 87 ;
+        lv2:symbol "release" ;
+        lv2:name "Release" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G603_RELEASE ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1226,6 +1246,11 @@ mimid_lv2:G602_LOUD_ENV
 	a pg:InputGroup;
 	lv2:name "Loudness Env" ;
 	lv2:symbol "g602_loud_env" .
+
+mimid_lv2:G603_RELEASE
+	a pg:InputGroup;
+	lv2:name "Env Release" ;
+	lv2:symbol "g603_release" .
 
 mimid_lv2:G701_VOICE_VAR
 	a pg:InputGroup;
