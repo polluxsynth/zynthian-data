@@ -784,13 +784,23 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 50 ;
-        lv2:symbol "multimode" ;
-        lv2:name "Multimode" ;
+        lv2:index 54 ;
+        lv2:symbol "filterenvamount" ;
+        lv2:name "FilterEnvAmount" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         pg:group mimid_lv2:G501_FLTR ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 50 ;
+        lv2:symbol "response" ;
+        lv2:name "Response" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G502_FLTR_CONF ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -809,13 +819,40 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G501_FLTR ;
+        pg:group mimid_lv2:G502_FLTR_CONF ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 88 ;
+        lv2:symbol "filtertype" ;
+        lv2:name "FilterType" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " 24 " ;
+            rdfs:comment "24" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label "SVF" ;
+            rdfs:comment "SVF" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label "SVF+" ;
+            rdfs:comment "SVF+" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "SVFN" ;
+            rdfs:comment "SVFN" ;
+        ];
+        pg:group mimid_lv2:G502_FLTR_CONF ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 52 ;
         lv2:symbol "bandpassblend" ;
-        lv2:name "BandpassBlend" ;
+        lv2:name "BandpassBlend_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -828,13 +865,12 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G501_FLTR ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 53 ;
         lv2:symbol "fourpole" ;
-        lv2:name "FourPole" ;
+        lv2:name "FourPole_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -847,17 +883,6 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G501_FLTR ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 54 ;
-        lv2:symbol "filterenvamount" ;
-        lv2:name "FilterEnvAmount" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G501_FLTR ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1177,7 +1202,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 83 ;
         lv2:symbol "selfoscpush" ;
-        lv2:name "SelfOscPush" ;
+        lv2:name "SelfOscPush_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -1236,6 +1261,11 @@ mimid_lv2:G501_FLTR
 	a pg:InputGroup;
 	lv2:name "Filter" ;
 	lv2:symbol "g501_fltr" .
+
+mimid_lv2:G502_FLTR_CONF
+	a pg:InputGroup;
+	lv2:name "Filter Config" ;
+	lv2:symbol "g502_fltr_conf" .
 
 mimid_lv2:G601_FLTR_ENV
 	a pg:InputGroup;
