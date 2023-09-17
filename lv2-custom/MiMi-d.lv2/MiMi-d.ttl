@@ -376,7 +376,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 24 ;
         lv2:symbol "lfosampleholdwave" ;
-        lv2:name "LfoSampleHoldWave" ;
+        lv2:name "LfoSampleHoldWave_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -403,8 +403,8 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 27 ;
-        lv2:symbol "lfoosc1" ;
-        lv2:name "LfoOsc1" ;
+        lv2:symbol "lfo1dest" ;
+        lv2:name "Lfo1Dest" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -413,17 +413,41 @@
             rdfs:label "OFF" ;
             rdfs:comment "OFF" ;
         ], [
+            rdf:value 0.14 ;
+            rdfs:label "Osc1" ;
+            rdfs:comment "Osc1" ;
+        ], [
+            rdf:value 0.28 ;
+            rdfs:label "Osc1+2" ;
+            rdfs:comment "Osc1+2" ;
+        ], [
+            rdf:value 0.43 ;
+            rdfs:label "Osc2" ;
+            rdfs:comment "Osc2" ;
+        ], [
+            rdf:value 0.57 ;
+            rdfs:label "PW1" ;
+            rdfs:comment "PW1" ;
+        ], [
+            rdf:value 0.71 ;
+            rdfs:label "PW1+2" ;
+            rdfs:comment "PW1+2" ;
+        ], [
+            rdf:value 0.86 ;
+            rdfs:label "PW2" ;
+            rdfs:comment "PW2" ;
+        ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label "Filt" ;
+            rdfs:comment "Filt" ;
         ];
-        pg:group mimid_lv2:G302_MOD_FREQ ;
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 28 ;
-        lv2:symbol "lfoosc2" ;
-        lv2:name "LfoOsc2" ;
+        lv2:symbol "lfo2dest" ;
+        lv2:name "Lfo2Dest" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -432,17 +456,41 @@
             rdfs:label "OFF" ;
             rdfs:comment "OFF" ;
         ], [
+            rdf:value 0.14 ;
+            rdfs:label "Osc1" ;
+            rdfs:comment "Osc1" ;
+        ], [
+            rdf:value 0.28 ;
+            rdfs:label "Osc1+2" ;
+            rdfs:comment "Osc1+2" ;
+        ], [
+            rdf:value 0.43 ;
+            rdfs:label "Osc2" ;
+            rdfs:comment "Osc2" ;
+        ], [
+            rdf:value 0.57 ;
+            rdfs:label "PW1" ;
+            rdfs:comment "PW1" ;
+        ], [
+            rdf:value 0.71 ;
+            rdfs:label "PW1+2" ;
+            rdfs:comment "PW1+2" ;
+        ], [
+            rdf:value 0.86 ;
+            rdfs:label "PW2" ;
+            rdfs:comment "PW2" ;
+        ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label "Filt" ;
+            rdfs:comment "Filt" ;
         ];
-        pg:group mimid_lv2:G302_MOD_FREQ ;
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 29 ;
         lv2:symbol "lfofilter" ;
-        lv2:name "LfoFilter" ;
+        lv2:name "LfoFilter_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -455,7 +503,6 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G302_MOD_FREQ ;
     ] ,
 
     [
@@ -472,7 +519,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 30 ;
         lv2:symbol "lfopw1" ;
-        lv2:name "LfoPw1" ;
+        lv2:name "LfoPw1_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -485,13 +532,12 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G303_MOD_PW ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 31 ;
         lv2:symbol "lfopw2" ;
-        lv2:name "LfoPw2" ;
+        lv2:name "LfoPw2_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -504,7 +550,6 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G303_MOD_PW ;
     ] ,
 
     [
@@ -1271,16 +1316,6 @@ mimid_lv2:G302_MOD_LFO2
 	a pg:InputGroup;
 	lv2:name "LFO2" ;
 	lv2:symbol "g302_mod_lfo2" .
-
-mimid_lv2:G303_MOD_FREQ
-	a pg:InputGroup;
-	lv2:name "Mod Freq" ;
-	lv2:symbol "g303_mod_freq" .
-
-mimid_lv2:G303_MOD_PW
-	a pg:InputGroup;
-	lv2:name "Mod Pulse Width" ;
-	lv2:symbol "g304_mod_pw" .
 
 mimid_lv2:G401_OSC_1
 	a pg:InputGroup;
