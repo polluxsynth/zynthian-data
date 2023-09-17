@@ -295,50 +295,82 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 21 ;
-        lv2:symbol "lfofrequency" ;
-        lv2:name "LfoFrequency" ;
+        lv2:symbol "lfo1frequency" ;
+        lv2:name "Lfo1Frequency" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G301_MOD_LFO ;
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 22 ;
-        lv2:symbol "lfosinewave" ;
-        lv2:name "LfoSineWave" ;
+        lv2:symbol "lfo1wave" ;
+        lv2:name "Lfo1Wave" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
+            rdfs:label " OFF " ;
             rdfs:comment "OFF" ;
         ], [
+            rdf:value 0.20 ;
+            rdfs:label " Tri " ;
+            rdfs:comment "Tri" ;
+        ], [
+            rdf:value 0.40 ;
+            rdfs:label " Squ " ;
+            rdfs:comment "Squ" ;
+        ], [
+            rdf:value 0.60 ;
+            rdfs:label " Sawu " ;
+            rdfs:comment "Sawu" ;
+        ], [
+            rdf:value 0.80 ;
+            rdfs:label " Sawd " ;
+            rdfs:comment "Sawd" ;
+        ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label " S/H " ;
+            rdfs:comment "S/H" ;
         ];
-        pg:group mimid_lv2:G301_MOD_LFO ;
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 23 ;
-        lv2:symbol "lfosquarewave" ;
-        lv2:name "LfoSquareWave" ;
+        lv2:symbol "lfo2wave" ;
+        lv2:name "Lfo2Wave" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
+            rdfs:label " OFF " ;
             rdfs:comment "OFF" ;
         ], [
+            rdf:value 0.20 ;
+            rdfs:label " Tri " ;
+            rdfs:comment "Tri" ;
+        ], [
+            rdf:value 0.40 ;
+            rdfs:label " Squ " ;
+            rdfs:comment "Squ" ;
+        ], [
+            rdf:value 0.60 ;
+            rdfs:label " Sawu " ;
+            rdfs:comment "Sawu" ;
+        ], [
+            rdf:value 0.80 ;
+            rdfs:label " Sawd " ;
+            rdfs:comment "Sawd" ;
+        ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label " S/H " ;
+            rdfs:comment "S/H" ;
         ];
-        pg:group mimid_lv2:G301_MOD_LFO ;
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -357,7 +389,6 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G301_MOD_LFO ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -367,7 +398,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G302_MOD_FREQ ;
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -435,7 +466,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G303_MOD_PW ;
+        pg:group mimid_lv2:G302_MOD_LFO2
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -488,6 +519,16 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 89 ;
+        lv2:symbol "osc1fltmod" ;
+        lv2:name "Osc1FilterMod" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G403_OSC_COM ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 36 ;
         lv2:symbol "pitchquant" ;
         lv2:name "PitchQuant" ;
@@ -503,7 +544,6 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G403_OSC_COM ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1017,12 +1057,12 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 13 ;
-        lv2:symbol "vibratorate" ;
-        lv2:name "VibratoRate" ;
+        lv2:symbol "lfo2frequency" ;
+        lv2:name "Lfo2Frequency" ;
         lv2:default 0.600000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G701_VOICE_VAR ;
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1222,20 +1262,25 @@ mimid_lv2:G201_CONTROL
 	lv2:name "Control" ;
 	lv2:symbol "g201_control" .
 
-mimid_lv2:G301_MOD_LFO
+mimid_lv2:G301_MOD_LFO1
 	a pg:InputGroup;
-	lv2:name "Mod LFO" ;
-	lv2:symbol "g301_mod_lfo" .
+	lv2:name "LFO1" ;
+	lv2:symbol "g301_mod_lfo1" .
 
-mimid_lv2:G302_MOD_FREQ
+mimid_lv2:G302_MOD_LFO2
+	a pg:InputGroup;
+	lv2:name "LFO2" ;
+	lv2:symbol "g302_mod_lfo2" .
+
+mimid_lv2:G303_MOD_FREQ
 	a pg:InputGroup;
 	lv2:name "Mod Freq" ;
-	lv2:symbol "g302_mod_freq" .
+	lv2:symbol "g303_mod_freq" .
 
 mimid_lv2:G303_MOD_PW
 	a pg:InputGroup;
 	lv2:name "Mod Pulse Width" ;
-	lv2:symbol "g303_mod_pw" .
+	lv2:symbol "g304_mod_pw" .
 
 mimid_lv2:G401_OSC_1
 	a pg:InputGroup;
