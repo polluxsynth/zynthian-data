@@ -102,7 +102,7 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G101_MANUAL ;
+        pg:group mimid_lv2:G102_KEYASSIGN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -170,7 +170,7 @@
             rdfs:label "Retrig" ;
             rdfs:comment "Retrig" ;
         ];
-        pg:group mimid_lv2:G101_MANUAL ;
+        pg:group mimid_lv2:G102_KEYASSIGN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -213,7 +213,7 @@
             rdfs:label "8" ;
             rdfs:comment "8" ;
         ];
-        pg:group mimid_lv2:G101_MANUAL ;
+        pg:group mimid_lv2:G102_KEYASSIGN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1301,6 +1301,11 @@ mimid_lv2:G101_MANUAL
 	a pg:InputGroup;
 	lv2:name "Manual" ;
 	lv2:symbol "g101_manual" .
+
+mimid_lv2:G102_KEYASSIGN
+	a pg:InputGroup;
+	lv2:name "Key Assign" ;
+	lv2:symbol "g102_keyassign" .
 
 mimid_lv2:G201_CONTROL
 	a pg:InputGroup;
