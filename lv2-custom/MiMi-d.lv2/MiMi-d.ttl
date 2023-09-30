@@ -250,7 +250,7 @@
         lv2:default 0.200000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G201_CONTROL ;
+        pg:group mimid_lv2:G701_SPREAD ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -902,7 +902,7 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G201_CONTROL ;
+        pg:group mimid_lv2:G703_DSP ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1075,7 +1075,7 @@
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G701_VOICE_VAR ;
+        pg:group mimid_lv2:G701_SPREAD ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1085,7 +1085,7 @@
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G701_VOICE_VAR ;
+        pg:group mimid_lv2:G701_SPREAD ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1095,7 +1095,7 @@
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G701_VOICE_VAR ;
+        pg:group mimid_lv2:G701_SPREAD ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1115,7 +1115,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G701_VOICE_VAR ;
+        pg:group mimid_lv2:G202_VELOCITY ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1125,7 +1125,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G701_VOICE_VAR ;
+        pg:group mimid_lv2:G202_VELOCITY ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1226,6 +1226,16 @@
         lv2:default 1.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "OFF" ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "ON" ;
+            rdfs:comment "ON" ;
+        ];
+        pg:group mimid_lv2:G703_DSP ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1280,6 +1290,7 @@
         lv2:default 0.300000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G701_SPREAD ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1413,6 +1424,11 @@ mimid_lv2:G201_CONTROL
 	lv2:name "Control" ;
 	lv2:symbol "g201_control" .
 
+mimid_lv2:G202_VELOCITY
+	a pg:InputGroup;
+	lv2:name "Velocity Sens." ;
+	lv2:symbol "g202_velocity" .
+
 mimid_lv2:G301_MOD_LFO1
 	a pg:InputGroup;
 	lv2:name "LFO1" ;
@@ -1468,12 +1484,17 @@ mimid_lv2:G603_RELEASE
 	lv2:name "Env Release" ;
 	lv2:symbol "g603_release" .
 
-mimid_lv2:G701_VOICE_VAR
+mimid_lv2:G701_SPREAD
 	a pg:InputGroup;
-	lv2:name "Voice Variation" ;
-	lv2:symbol "g701_voice_var" .
+	lv2:name "Spread" ;
+	lv2:symbol "g701_slop" .
 
 mimid_lv2:G702_VOICE_PAN
 	a pg:InputGroup;
 	lv2:name "Voice Panning" ;
 	lv2:symbol "g702_voice_pan" .
+
+mimid_lv2:G703_DSP
+	a pg:InputGroup;
+	lv2:name "DSP Control" ;
+	lv2:symbol "g703_dsp" .
