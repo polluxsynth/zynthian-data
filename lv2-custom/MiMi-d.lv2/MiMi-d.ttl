@@ -1079,6 +1079,16 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 96 ;
+        lv2:symbol "lfospread" ;
+        lv2:name "LfoSpread" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G701_SPREAD ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 64 ;
         lv2:symbol "filterspread" ;
         lv2:name "FilterSpread" ;
