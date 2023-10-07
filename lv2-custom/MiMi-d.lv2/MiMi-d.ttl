@@ -1109,6 +1109,29 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 95 ;
+        lv2:symbol "lfo2sync" ;
+        lv2:name "Lfo2Sync" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " OFF " ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 0.5 ;
+            rdfs:label " CLOCK " ;
+            rdfs:comment "CLOCK" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " KEY " ;
+            rdfs:comment "KEY" ;
+        ];
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 14 ;
         lv2:symbol "vfltfactor" ;
         lv2:name "VFltFactor" ;
@@ -1240,11 +1263,25 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 76 ;
-        lv2:symbol "lfosync" ;
-        lv2:name "LfoSync" ;
+        lv2:symbol "lfo1sync" ;
+        lv2:name "Lfo1Sync" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " OFF " ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 0.5 ;
+            rdfs:label " CLOCK " ;
+            rdfs:comment "CLOCK" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " KEY " ;
+            rdfs:comment "KEY" ;
+        ];
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
