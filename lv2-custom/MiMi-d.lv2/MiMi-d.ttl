@@ -1163,82 +1163,74 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 66 ;
-        lv2:symbol "pan1" ;
-        lv2:name "Pan1" ;
+        lv2:symbol "pan1_NOTUSED" ;
+        lv2:name "Pan1_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 67 ;
-        lv2:symbol "pan2" ;
-        lv2:name "Pan2" ;
+        lv2:symbol "pan2_NOTUSED" ;
+        lv2:name "Pan2_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 68 ;
-        lv2:symbol "pan3" ;
-        lv2:name "Pan3" ;
+        lv2:symbol "pan3_NOTUSED" ;
+        lv2:name "Pan3_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 69 ;
-        lv2:symbol "pan4" ;
-        lv2:name "Pan4" ;
+        lv2:symbol "pan4_NOTUSED" ;
+        lv2:name "Pan4_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 70 ;
-        lv2:symbol "pan5" ;
-        lv2:name "Pan5" ;
+        lv2:symbol "pan5_NOTUSED" ;
+        lv2:name "Pan5_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 71 ;
-        lv2:symbol "pan6" ;
-        lv2:name "Pan6" ;
+        lv2:symbol "pan6_NOTUSED" ;
+        lv2:name "Pan6_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 72 ;
-        lv2:symbol "pan7" ;
-        lv2:name "Pan7" ;
+        lv2:symbol "pan7_NOTUSED" ;
+        lv2:name "Pan7_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 73 ;
-        lv2:symbol "pan8" ;
-        lv2:name "Pan8" ;
+        lv2:symbol "pan8_NOTUSED" ;
+        lv2:name "Pan8_NOTUSED" ;
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G702_VOICE_PAN ;
     ] ,
     
     
@@ -1450,6 +1442,16 @@
             rdfs:comment "RES" ;
         ];
         pg:group mimid_lv2:G102_KEYASSIGN ;
+    ],
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 97 ;
+        lv2:symbol "panspread" ;
+        lv2:name "PanSpread" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G701_SPREAD ;
     ] ;
 
     doap:name "MiMi-d" ;
@@ -1534,12 +1536,7 @@ mimid_lv2:G603_RELEASE
 mimid_lv2:G701_SPREAD
 	a pg:InputGroup;
 	lv2:name "Spread" ;
-	lv2:symbol "g701_slop" .
-
-mimid_lv2:G702_VOICE_PAN
-	a pg:InputGroup;
-	lv2:name "Voice Panning" ;
-	lv2:symbol "g702_voice_pan" .
+	lv2:symbol "g701_spread" .
 
 mimid_lv2:G703_DSP
 	a pg:InputGroup;
