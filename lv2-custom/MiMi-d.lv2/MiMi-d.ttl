@@ -602,11 +602,10 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 43 ;
         lv2:symbol "envelopetopitch" ;
-        lv2:name "EnvelopeToPitch" ;
+        lv2:name "EnvelopeToPitch_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1289,7 +1288,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 77 ;
         lv2:symbol "pwenv" ;
-        lv2:name "PwEnv" ;
+        lv2:name "PwEnv_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -1298,7 +1297,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 78 ;
         lv2:symbol "pwenvboth" ;
-        lv2:name "PwEnvBoth" ;
+        lv2:name "PwEnvBoth_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -1307,7 +1306,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 79 ;
         lv2:symbol "envpitchboth" ;
-        lv2:name "EnvPitchBoth" ;
+        lv2:name "EnvPitchBoth_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
