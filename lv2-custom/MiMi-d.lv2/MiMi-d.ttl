@@ -1451,6 +1451,157 @@
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         pg:group mimid_lv2:G701_SPREAD ;
+    ],
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 98 ;
+        lv2:symbol "genattack" ;
+        lv2:name "GenAttack" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 99 ;
+        lv2:symbol "gendecay" ;
+        lv2:name "GenDecay" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 100 ;
+        lv2:symbol "gensustain" ;
+        lv2:name "GenSustain" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 101 ;
+        lv2:symbol "gensustaintime" ;
+        lv2:name "GenSustainTime" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 102 ;
+        lv2:symbol "genrelase" ;
+        lv2:name "GenRelease" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+	pg:group mimid_lv2:G603_RELEASE ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 103 ;
+        lv2:symbol "genenvamount" ;
+        lv2:name "GenEnvAmount" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 104 ;
+        lv2:symbol "genenvdest" ;
+        lv2:name "GenEnvDest" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "OFF" ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 0.14 ;
+            rdfs:label "Osc1" ;
+            rdfs:comment "Osc1" ;
+        ], [
+            rdf:value 0.28 ;
+            rdfs:label "Osc1+2" ;
+            rdfs:comment "Osc1+2" ;
+        ], [
+            rdf:value 0.43 ;
+            rdfs:label "Osc2" ;
+            rdfs:comment "Osc2" ;
+        ], [
+            rdf:value 0.57 ;
+            rdfs:label "PW1" ;
+            rdfs:comment "PW1" ;
+        ], [
+            rdf:value 0.71 ;
+            rdfs:label "PW1+2" ;
+            rdfs:comment "PW1+2" ;
+        ], [
+            rdf:value 0.86 ;
+            rdfs:label "PW2" ;
+            rdfs:comment "PW2" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "Peak" ;
+            rdfs:comment "Peak" ;
+        ];
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 105 ;
+        lv2:symbol "genenvunipol" ;
+        lv2:name "GenEnvUnipol" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "BIPOLAR" ;
+            rdfs:comment "BIPOLAR" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " UNI " ;
+            rdfs:comment "UNI" ;
+        ];
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 106 ;
+        lv2:symbol "genenvinvert" ;
+        lv2:name "GenEnvInvert" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "NORM" ;
+            rdfs:comment "NORM" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " INV " ;
+            rdfs:comment "INV" ;
+        ];
+	pg:group mimid_lv2:G303_MOD_GENV ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 107 ;
+        lv2:symbol "vgenfactor" ;
+        lv2:name "VGenFactor" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G202_VELOCITY ;
     ] ;
 
     doap:name "MiMi-d" ;
@@ -1486,6 +1637,11 @@ mimid_lv2:G302_MOD_LFO2
 	a pg:InputGroup;
 	lv2:name "LFO2" ;
 	lv2:symbol "g302_mod_lfo2" .
+
+mimid_lv2:G303_MOD_GENV
+	a pg:InputGroup;
+	lv2:name "Gen Env" ;
+	lv2:symbol "g303_mod_genv" .
 
 mimid_lv2:G401_OSC_1
 	a pg:InputGroup;
