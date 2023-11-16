@@ -83,7 +83,7 @@
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G101_MANUAL ;
+        pg:group mimid_lv2:G101_MAIN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -111,7 +111,7 @@
         lv2:default 0.500000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G101_MANUAL ;
+        pg:group mimid_lv2:G101_MAIN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -142,7 +142,7 @@
             rdfs:label "5" ;
             rdfs:comment "5" ;
         ];
-        pg:group mimid_lv2:G101_MANUAL ;
+        pg:group mimid_lv2:G101_MAIN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -221,7 +221,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G201_CONTROL ;
+        pg:group mimid_lv2:G101_MAIN ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -269,7 +269,7 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G201_CONTROL ;
+        pg:group mimid_lv2:G304_BEND ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -288,7 +288,7 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-        pg:group mimid_lv2:G201_CONTROL ;
+        pg:group mimid_lv2:G304_BEND ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -587,16 +587,6 @@
             rdfs:label "ON" ;
             rdfs:comment "ON" ;
         ];
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 42 ;
-        lv2:symbol "hpffreq" ;
-        lv2:name "HPFfreq" ;
-        lv2:default 1.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G101_MANUAL ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1602,26 +1592,41 @@
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         pg:group mimid_lv2:G202_VELOCITY ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 42 ;
+        lv2:symbol "hpffreq" ;
+        lv2:name "HPFfreq" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G503_VCA ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 108 ;
+        lv2:symbol "vcadrive" ;
+        lv2:name "VCADrive" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G503_VCA ;
     ] ;
 
     doap:name "MiMi-d" ;
     doap:maintainer [ foaf:name "Polluxsynth" ] .
 
     
-mimid_lv2:G101_MANUAL
+mimid_lv2:G101_MAIN
 	a pg:InputGroup;
-	lv2:name "Manual" ;
-	lv2:symbol "g101_manual" .
+	lv2:name "Main" ;
+	lv2:symbol "g101_main" .
 
 mimid_lv2:G102_KEYASSIGN
 	a pg:InputGroup;
 	lv2:name "Key Assign" ;
 	lv2:symbol "g102_keyassign" .
-
-mimid_lv2:G201_CONTROL
-	a pg:InputGroup;
-	lv2:name "Control" ;
-	lv2:symbol "g201_control" .
 
 mimid_lv2:G202_VELOCITY
 	a pg:InputGroup;
@@ -1642,6 +1647,11 @@ mimid_lv2:G303_MOD_GENV
 	a pg:InputGroup;
 	lv2:name "Gen Env" ;
 	lv2:symbol "g303_mod_genv" .
+
+mimid_lv2:G304_BEND
+	a pg:InputGroup;
+	lv2:name "Bend" ;
+	lv2:symbol "g303_bend" .
 
 mimid_lv2:G401_OSC_1
 	a pg:InputGroup;
@@ -1672,6 +1682,11 @@ mimid_lv2:G502_FLTR_CONF
 	a pg:InputGroup;
 	lv2:name "Filter Config" ;
 	lv2:symbol "g502_fltr_conf" .
+
+mimid_lv2:G503_VCA
+	a pg:InputGroup;
+	lv2:name "VCA" ;
+	lv2:symbol "g503_vca" .
 
 mimid_lv2:G601_FLTR_ENV
 	a pg:InputGroup;
