@@ -274,8 +274,8 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 11 ;
-        lv2:symbol "bendosc2only" ;
-        lv2:name "BendOsc2Only" ;
+        lv2:symbol "bendosc1only" ;
+        lv2:name "BendOsc1Only" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -563,8 +563,8 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 89 ;
-        lv2:symbol "osc1fltmod" ;
-        lv2:name "Osc1FilterMod" ;
+        lv2:symbol "osc2fltmod" ;
+        lv2:name "Osc2FilterMod" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -599,21 +599,12 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 32 ;
-        lv2:symbol "sync" ;
-        lv2:name "Sync" ;
-        lv2:default 0.000000 ;
+        lv2:index 20 ;
+        lv2:symbol "osc1detune" ;
+        lv2:name "Osc1Detune" ;
+        lv2:default 0.400000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        lv2:scalePoint [
-            rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
-        ], [
-            rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
-        ];
         pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
     [
@@ -699,15 +690,23 @@
         ];
         pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
-
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 20 ;
-        lv2:symbol "osc2detune" ;
-        lv2:name "Osc2Detune" ;
-        lv2:default 0.400000 ;
+        lv2:index 32 ;
+        lv2:symbol "sync" ;
+        lv2:name "Sync" ;
+        lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "OFF" ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "ON" ;
+            rdfs:comment "ON" ;
+        ];
         pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
