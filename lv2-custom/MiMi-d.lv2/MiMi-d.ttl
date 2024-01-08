@@ -574,7 +574,7 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 36 ;
         lv2:symbol "pitchquant" ;
-        lv2:name "PitchQuant" ;
+        lv2:name "PitchQuant_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
