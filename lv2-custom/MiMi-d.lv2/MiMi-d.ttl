@@ -615,6 +615,299 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "0" ;
+            rdfs:comment "0" ;
+        ], [
+            rdf:value 0.01 ;
+            rdfs:label "1" ;
+            rdfs:comment "1" ;
+        ], [
+            rdf:value 0.03 ;
+            rdfs:label "2" ;
+            rdfs:comment "2" ;
+        ], [
+            rdf:value 0.04 ;
+            rdfs:label "3" ;
+            rdfs:comment "3" ;
+        ], [
+            rdf:value 0.06 ;
+            rdfs:label "4" ;
+            rdfs:comment "4" ;
+        ], [
+            rdf:value 0.07 ;
+            rdfs:label "5" ;
+            rdfs:comment "5" ;
+        ], [
+            rdf:value 0.08 ;
+            rdfs:label "6" ;
+            rdfs:comment "6" ;
+        ], [
+            rdf:value 0.1 ;
+            rdfs:label "7" ;
+            rdfs:comment "7" ;
+        ], [
+            rdf:value 0.11 ;
+            rdfs:label "8" ;
+            rdfs:comment "8" ;
+        ], [
+            rdf:value 0.12 ;
+            rdfs:label "9" ;
+            rdfs:comment "9" ;
+        ], [
+            rdf:value 0.14 ;
+            rdfs:label "10" ;
+            rdfs:comment "10" ;
+        ], [
+            rdf:value 0.15 ;
+            rdfs:label "11" ;
+            rdfs:comment "11" ;
+        ], [
+            rdf:value 0.17 ;
+            rdfs:label "12" ;
+            rdfs:comment "12" ;
+        ], [
+            rdf:value 0.18 ;
+            rdfs:label "13" ;
+            rdfs:comment "13" ;
+        ], [
+            rdf:value 0.19 ;
+            rdfs:label "14" ;
+            rdfs:comment "14" ;
+        ], [
+            rdf:value 0.21 ;
+            rdfs:label "15" ;
+            rdfs:comment "15" ;
+        ], [
+            rdf:value 0.22 ;
+            rdfs:label "16" ;
+            rdfs:comment "16" ;
+        ], [
+            rdf:value 0.24 ;
+            rdfs:label "17" ;
+            rdfs:comment "17" ;
+        ], [
+            rdf:value 0.25 ;
+            rdfs:label "18" ;
+            rdfs:comment "18" ;
+        ], [
+            rdf:value 0.26 ;
+            rdfs:label "19" ;
+            rdfs:comment "19" ;
+        ], [
+            rdf:value 0.28 ;
+            rdfs:label "20" ;
+            rdfs:comment "20" ;
+        ], [
+            rdf:value 0.29 ;
+            rdfs:label "21" ;
+            rdfs:comment "21" ;
+        ], [
+            rdf:value 0.31 ;
+            rdfs:label "22" ;
+            rdfs:comment "22" ;
+        ], [
+            rdf:value 0.32 ;
+            rdfs:label "23" ;
+            rdfs:comment "23" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label "24" ;
+            rdfs:comment "24" ;
+        ], [
+            rdf:value 0.35 ;
+            rdfs:label "25" ;
+            rdfs:comment "25" ;
+        ], [
+            rdf:value 0.36 ;
+            rdfs:label "26" ;
+            rdfs:comment "26" ;
+        ], [
+            rdf:value 0.38 ;
+            rdfs:label "27" ;
+            rdfs:comment "27" ;
+        ], [
+            rdf:value 0.39 ;
+            rdfs:label "28" ;
+            rdfs:comment "28" ;
+        ], [
+            rdf:value 0.4 ;
+            rdfs:label "29" ;
+            rdfs:comment "29" ;
+        ], [
+            rdf:value 0.42 ;
+            rdfs:label "30" ;
+            rdfs:comment "30" ;
+        ], [
+            rdf:value 0.43 ;
+            rdfs:label "31" ;
+            rdfs:comment "31" ;
+        ], [
+            rdf:value 0.44 ;
+            rdfs:label "32" ;
+            rdfs:comment "32" ;
+        ], [
+            rdf:value 0.46 ;
+            rdfs:label "33" ;
+            rdfs:comment "33" ;
+        ], [
+            rdf:value 0.47 ;
+            rdfs:label "34" ;
+            rdfs:comment "34" ;
+        ], [
+            rdf:value 0.49 ;
+            rdfs:label "35" ;
+            rdfs:comment "35" ;
+        ], [
+            rdf:value 0.5 ;
+            rdfs:label "36" ;
+            rdfs:comment "36" ;
+        ], [
+            rdf:value 0.51 ;
+            rdfs:label "37" ;
+            rdfs:comment "37" ;
+        ], [
+            rdf:value 0.53 ;
+            rdfs:label "38" ;
+            rdfs:comment "38" ;
+        ], [
+            rdf:value 0.54 ;
+            rdfs:label "39" ;
+            rdfs:comment "39" ;
+        ], [
+            rdf:value 0.56 ;
+            rdfs:label "40" ;
+            rdfs:comment "40" ;
+        ], [
+            rdf:value 0.57 ;
+            rdfs:label "41" ;
+            rdfs:comment "41" ;
+        ], [
+            rdf:value 0.58 ;
+            rdfs:label "42" ;
+            rdfs:comment "42" ;
+        ], [
+            rdf:value 0.6 ;
+            rdfs:label "43" ;
+            rdfs:comment "43" ;
+        ], [
+            rdf:value 0.61 ;
+            rdfs:label "44" ;
+            rdfs:comment "44" ;
+        ], [
+            rdf:value 0.62 ;
+            rdfs:label "45" ;
+            rdfs:comment "45" ;
+        ], [
+            rdf:value 0.64 ;
+            rdfs:label "46" ;
+            rdfs:comment "46" ;
+        ], [
+            rdf:value 0.65 ;
+            rdfs:label "47" ;
+            rdfs:comment "47" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label "48" ;
+            rdfs:comment "48" ;
+        ], [
+            rdf:value 0.68 ;
+            rdfs:label "49" ;
+            rdfs:comment "49" ;
+        ], [
+            rdf:value 0.69 ;
+            rdfs:label "50" ;
+            rdfs:comment "50" ;
+        ], [
+            rdf:value 0.71 ;
+            rdfs:label "51" ;
+            rdfs:comment "51" ;
+        ], [
+            rdf:value 0.72 ;
+            rdfs:label "52" ;
+            rdfs:comment "52" ;
+        ], [
+            rdf:value 0.74 ;
+            rdfs:label "53" ;
+            rdfs:comment "53" ;
+        ], [
+            rdf:value 0.75 ;
+            rdfs:label "54" ;
+            rdfs:comment "54" ;
+        ], [
+            rdf:value 0.76 ;
+            rdfs:label "55" ;
+            rdfs:comment "55" ;
+        ], [
+            rdf:value 0.78 ;
+            rdfs:label "56" ;
+            rdfs:comment "56" ;
+        ], [
+            rdf:value 0.79 ;
+            rdfs:label "57" ;
+            rdfs:comment "57" ;
+        ], [
+            rdf:value 0.81 ;
+            rdfs:label "58" ;
+            rdfs:comment "58" ;
+        ], [
+            rdf:value 0.82 ;
+            rdfs:label "59" ;
+            rdfs:comment "59" ;
+        ], [
+            rdf:value 0.83 ;
+            rdfs:label "60" ;
+            rdfs:comment "60" ;
+        ], [
+            rdf:value 0.85 ;
+            rdfs:label "61" ;
+            rdfs:comment "61" ;
+        ], [
+            rdf:value 0.86 ;
+            rdfs:label "62" ;
+            rdfs:comment "62" ;
+        ], [
+            rdf:value 0.88 ;
+            rdfs:label "63" ;
+            rdfs:comment "63" ;
+        ], [
+            rdf:value 0.89 ;
+            rdfs:label "64" ;
+            rdfs:comment "64" ;
+        ], [
+            rdf:value 0.9 ;
+            rdfs:label "65" ;
+            rdfs:comment "65" ;
+        ], [
+            rdf:value 0.92 ;
+            rdfs:label "66" ;
+            rdfs:comment "66" ;
+        ], [
+            rdf:value 0.93 ;
+            rdfs:label "67" ;
+            rdfs:comment "67" ;
+        ], [
+            rdf:value 0.94 ;
+            rdfs:label "68" ;
+            rdfs:comment "68" ;
+        ], [
+            rdf:value 0.96 ;
+            rdfs:label "69" ;
+            rdfs:comment "69" ;
+        ], [
+            rdf:value 0.97 ;
+            rdfs:label "70" ;
+            rdfs:comment "70" ;
+        ], [
+            rdf:value 0.99 ;
+            rdfs:label "71" ;
+            rdfs:comment "71" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "72" ;
+            rdfs:comment "72" ;
+        ];
         pg:group mimid_lv2:G401_OSC_1 ;
     ] ,
     [
@@ -717,6 +1010,299 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "0" ;
+            rdfs:comment "0" ;
+        ], [
+            rdf:value 0.01 ;
+            rdfs:label "1" ;
+            rdfs:comment "1" ;
+        ], [
+            rdf:value 0.03 ;
+            rdfs:label "2" ;
+            rdfs:comment "2" ;
+        ], [
+            rdf:value 0.04 ;
+            rdfs:label "3" ;
+            rdfs:comment "3" ;
+        ], [
+            rdf:value 0.06 ;
+            rdfs:label "4" ;
+            rdfs:comment "4" ;
+        ], [
+            rdf:value 0.07 ;
+            rdfs:label "5" ;
+            rdfs:comment "5" ;
+        ], [
+            rdf:value 0.08 ;
+            rdfs:label "6" ;
+            rdfs:comment "6" ;
+        ], [
+            rdf:value 0.1 ;
+            rdfs:label "7" ;
+            rdfs:comment "7" ;
+        ], [
+            rdf:value 0.11 ;
+            rdfs:label "8" ;
+            rdfs:comment "8" ;
+        ], [
+            rdf:value 0.12 ;
+            rdfs:label "9" ;
+            rdfs:comment "9" ;
+        ], [
+            rdf:value 0.14 ;
+            rdfs:label "10" ;
+            rdfs:comment "10" ;
+        ], [
+            rdf:value 0.15 ;
+            rdfs:label "11" ;
+            rdfs:comment "11" ;
+        ], [
+            rdf:value 0.17 ;
+            rdfs:label "12" ;
+            rdfs:comment "12" ;
+        ], [
+            rdf:value 0.18 ;
+            rdfs:label "13" ;
+            rdfs:comment "13" ;
+        ], [
+            rdf:value 0.19 ;
+            rdfs:label "14" ;
+            rdfs:comment "14" ;
+        ], [
+            rdf:value 0.21 ;
+            rdfs:label "15" ;
+            rdfs:comment "15" ;
+        ], [
+            rdf:value 0.22 ;
+            rdfs:label "16" ;
+            rdfs:comment "16" ;
+        ], [
+            rdf:value 0.24 ;
+            rdfs:label "17" ;
+            rdfs:comment "17" ;
+        ], [
+            rdf:value 0.25 ;
+            rdfs:label "18" ;
+            rdfs:comment "18" ;
+        ], [
+            rdf:value 0.26 ;
+            rdfs:label "19" ;
+            rdfs:comment "19" ;
+        ], [
+            rdf:value 0.28 ;
+            rdfs:label "20" ;
+            rdfs:comment "20" ;
+        ], [
+            rdf:value 0.29 ;
+            rdfs:label "21" ;
+            rdfs:comment "21" ;
+        ], [
+            rdf:value 0.31 ;
+            rdfs:label "22" ;
+            rdfs:comment "22" ;
+        ], [
+            rdf:value 0.32 ;
+            rdfs:label "23" ;
+            rdfs:comment "23" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label "24" ;
+            rdfs:comment "24" ;
+        ], [
+            rdf:value 0.35 ;
+            rdfs:label "25" ;
+            rdfs:comment "25" ;
+        ], [
+            rdf:value 0.36 ;
+            rdfs:label "26" ;
+            rdfs:comment "26" ;
+        ], [
+            rdf:value 0.38 ;
+            rdfs:label "27" ;
+            rdfs:comment "27" ;
+        ], [
+            rdf:value 0.39 ;
+            rdfs:label "28" ;
+            rdfs:comment "28" ;
+        ], [
+            rdf:value 0.4 ;
+            rdfs:label "29" ;
+            rdfs:comment "29" ;
+        ], [
+            rdf:value 0.42 ;
+            rdfs:label "30" ;
+            rdfs:comment "30" ;
+        ], [
+            rdf:value 0.43 ;
+            rdfs:label "31" ;
+            rdfs:comment "31" ;
+        ], [
+            rdf:value 0.44 ;
+            rdfs:label "32" ;
+            rdfs:comment "32" ;
+        ], [
+            rdf:value 0.46 ;
+            rdfs:label "33" ;
+            rdfs:comment "33" ;
+        ], [
+            rdf:value 0.47 ;
+            rdfs:label "34" ;
+            rdfs:comment "34" ;
+        ], [
+            rdf:value 0.49 ;
+            rdfs:label "35" ;
+            rdfs:comment "35" ;
+        ], [
+            rdf:value 0.5 ;
+            rdfs:label "36" ;
+            rdfs:comment "36" ;
+        ], [
+            rdf:value 0.51 ;
+            rdfs:label "37" ;
+            rdfs:comment "37" ;
+        ], [
+            rdf:value 0.53 ;
+            rdfs:label "38" ;
+            rdfs:comment "38" ;
+        ], [
+            rdf:value 0.54 ;
+            rdfs:label "39" ;
+            rdfs:comment "39" ;
+        ], [
+            rdf:value 0.56 ;
+            rdfs:label "40" ;
+            rdfs:comment "40" ;
+        ], [
+            rdf:value 0.57 ;
+            rdfs:label "41" ;
+            rdfs:comment "41" ;
+        ], [
+            rdf:value 0.58 ;
+            rdfs:label "42" ;
+            rdfs:comment "42" ;
+        ], [
+            rdf:value 0.6 ;
+            rdfs:label "43" ;
+            rdfs:comment "43" ;
+        ], [
+            rdf:value 0.61 ;
+            rdfs:label "44" ;
+            rdfs:comment "44" ;
+        ], [
+            rdf:value 0.62 ;
+            rdfs:label "45" ;
+            rdfs:comment "45" ;
+        ], [
+            rdf:value 0.64 ;
+            rdfs:label "46" ;
+            rdfs:comment "46" ;
+        ], [
+            rdf:value 0.65 ;
+            rdfs:label "47" ;
+            rdfs:comment "47" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label "48" ;
+            rdfs:comment "48" ;
+        ], [
+            rdf:value 0.68 ;
+            rdfs:label "49" ;
+            rdfs:comment "49" ;
+        ], [
+            rdf:value 0.69 ;
+            rdfs:label "50" ;
+            rdfs:comment "50" ;
+        ], [
+            rdf:value 0.71 ;
+            rdfs:label "51" ;
+            rdfs:comment "51" ;
+        ], [
+            rdf:value 0.72 ;
+            rdfs:label "52" ;
+            rdfs:comment "52" ;
+        ], [
+            rdf:value 0.74 ;
+            rdfs:label "53" ;
+            rdfs:comment "53" ;
+        ], [
+            rdf:value 0.75 ;
+            rdfs:label "54" ;
+            rdfs:comment "54" ;
+        ], [
+            rdf:value 0.76 ;
+            rdfs:label "55" ;
+            rdfs:comment "55" ;
+        ], [
+            rdf:value 0.78 ;
+            rdfs:label "56" ;
+            rdfs:comment "56" ;
+        ], [
+            rdf:value 0.79 ;
+            rdfs:label "57" ;
+            rdfs:comment "57" ;
+        ], [
+            rdf:value 0.81 ;
+            rdfs:label "58" ;
+            rdfs:comment "58" ;
+        ], [
+            rdf:value 0.82 ;
+            rdfs:label "59" ;
+            rdfs:comment "59" ;
+        ], [
+            rdf:value 0.83 ;
+            rdfs:label "60" ;
+            rdfs:comment "60" ;
+        ], [
+            rdf:value 0.85 ;
+            rdfs:label "61" ;
+            rdfs:comment "61" ;
+        ], [
+            rdf:value 0.86 ;
+            rdfs:label "62" ;
+            rdfs:comment "62" ;
+        ], [
+            rdf:value 0.88 ;
+            rdfs:label "63" ;
+            rdfs:comment "63" ;
+        ], [
+            rdf:value 0.89 ;
+            rdfs:label "64" ;
+            rdfs:comment "64" ;
+        ], [
+            rdf:value 0.9 ;
+            rdfs:label "65" ;
+            rdfs:comment "65" ;
+        ], [
+            rdf:value 0.92 ;
+            rdfs:label "66" ;
+            rdfs:comment "66" ;
+        ], [
+            rdf:value 0.93 ;
+            rdfs:label "67" ;
+            rdfs:comment "67" ;
+        ], [
+            rdf:value 0.94 ;
+            rdfs:label "68" ;
+            rdfs:comment "68" ;
+        ], [
+            rdf:value 0.96 ;
+            rdfs:label "69" ;
+            rdfs:comment "69" ;
+        ], [
+            rdf:value 0.97 ;
+            rdfs:label "70" ;
+            rdfs:comment "70" ;
+        ], [
+            rdf:value 0.99 ;
+            rdfs:label "71" ;
+            rdfs:comment "71" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "72" ;
+            rdfs:comment "72" ;
+        ];
         pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
