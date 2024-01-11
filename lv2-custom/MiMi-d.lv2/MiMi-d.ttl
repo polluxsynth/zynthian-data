@@ -986,20 +986,11 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 32 ;
-        lv2:symbol "sync" ;
-        lv2:name "Sync" ;
+        lv2:symbol "oscSync" ;
+        lv2:name "OscSync" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        lv2:scalePoint [
-            rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
-        ], [
-            rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
-        ];
         pg:group mimid_lv2:G402_OSC_2 ;
     ] ,
     [
