@@ -572,6 +572,16 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 109 ;
+        lv2:symbol "oscSync" ;
+        lv2:name "OscSync" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G403_OSC_COM ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 36 ;
         lv2:symbol "pitchquant" ;
         lv2:name "PitchQuant_NOTUSED" ;
@@ -986,9 +996,9 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 32 ;
-        lv2:symbol "oscSync" ;
-        lv2:name "OscSync" ;
-        lv2:default 0.000000 ;
+        lv2:symbol "osc2detune" ;
+        lv2:name "Osc2Detune" ;
+        lv2:default 0.400000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         pg:group mimid_lv2:G402_OSC_2 ;
