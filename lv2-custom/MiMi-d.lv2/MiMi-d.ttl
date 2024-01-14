@@ -558,7 +558,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G404_OSC_COM ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -568,7 +568,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G404_OSC_COM ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -578,7 +578,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G403_OSC_COM ;
+        pg:group mimid_lv2:G404_OSC_COM ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1381,13 +1381,91 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 110 ;
+        lv2:symbol "osc3detune" ;
+        lv2:name "Osc3Detune" ;
+        lv2:default 0.400000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G403_OSC_3 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 111 ;
+        lv2:symbol "osc3ratio" ;
+        lv2:name "Osc3Ratio" ;
+        lv2:default 0.330000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " 0 " ;
+            rdfs:comment "0" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label " -1 " ;
+            rdfs:comment "-1" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label " -2 " ;
+            rdfs:comment "-2" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " -3 " ;
+            rdfs:comment "-3" ;
+        ];
+        pg:group mimid_lv2:G403_OSC_3 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 112 ;
+        lv2:symbol "osc3ofs" ;
+        lv2:name "Osc3Ofs" ;
+        lv2:default 0.400000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G403_OSC_3 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 113 ;
+        lv2:symbol "osc3wave" ;
+        lv2:name "Osc3Wave" ;
+        lv2:default 0.330000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " OFF " ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 0.25 ;
+            rdfs:label " Saw " ;
+            rdfs:comment "Saw" ;
+        ], [
+            rdf:value 0.5 ;
+            rdfs:label " Squ " ;
+            rdfs:comment "Squ" ;
+        ], [
+            rdf:value 0.75 ;
+            rdfs:label " Pul " ;
+            rdfs:comment "Pul" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " Tri " ;
+            rdfs:comment "Tri" ;
+        ];
+        pg:group mimid_lv2:G403_OSC_3 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 44 ;
         lv2:symbol "osc1lvl" ;
         lv2:name "Osc1Lvl" ;
         lv2:default 1.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G404_MIXER ;
+        pg:group mimid_lv2:G405_MIXER ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1397,7 +1475,17 @@
         lv2:default 1.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G404_MIXER ;
+        pg:group mimid_lv2:G405_MIXER ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 114 ;
+        lv2:symbol "osc3lvl" ;
+        lv2:name "Osc3Lvl" ;
+        lv2:default 1.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G405_MIXER ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1407,7 +1495,7 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G404_MIXER ;
+        pg:group mimid_lv2:G405_MIXER ;
     ] ,
 
     [
@@ -2259,15 +2347,20 @@ mimid_lv2:G402_OSC_2
 	lv2:name "Oscillator 2" ;
 	lv2:symbol "g402_osc_pw" .
 
-mimid_lv2:G403_OSC_COM
+mimid_lv2:G403_OSC_3
+	a pg:InputGroup;
+	lv2:name "Oscillator 3" ;
+	lv2:symbol "g403_osc_pw" .
+
+mimid_lv2:G404_OSC_COM
 	a pg:InputGroup;
 	lv2:name "Osc Common" ;
-	lv2:symbol "g403_osc_com" .
+	lv2:symbol "g404_osc_com" .
 
-mimid_lv2:G404_MIXER
+mimid_lv2:G405_MIXER
 	a pg:InputGroup;
 	lv2:name "Mixer" ;
-	lv2:symbol "g404_mixer" .
+	lv2:symbol "g405_mixer" .
 
 mimid_lv2:G501_FLTR
 	a pg:InputGroup;
