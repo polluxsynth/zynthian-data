@@ -867,8 +867,8 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 50 ;
-        lv2:symbol "response" ;
-        lv2:name "Response" ;
+        lv2:symbol "slope" ;
+        lv2:name "Slope" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
