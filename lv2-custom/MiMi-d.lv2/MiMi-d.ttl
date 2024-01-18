@@ -552,6 +552,36 @@
 
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 111 ;
+        lv2:symbol "modWheelAmt" ;
+        lv2:name "ModWheelAmt" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G305_MODW
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 112 ;
+        lv2:symbol "modWheelDest" ;
+        lv2:name "ModWheelDest" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "LFO1" ;
+            rdfs:comment "LFO1" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "LFO2" ;
+            rdfs:comment "LFO2" ;
+        ];
+        pg:group mimid_lv2:G305_MODW
+    ] ,
+
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 33 ;
         lv2:symbol "xmod" ;
         lv2:name "Xmod" ;
@@ -2279,6 +2309,11 @@ mimid_lv2:G304_BEND
 	a pg:InputGroup;
 	lv2:name "Bend" ;
 	lv2:symbol "g303_bend" .
+
+mimid_lv2:G305_MODW
+	a pg:InputGroup;
+	lv2:name "Mod Wheel" ;
+	lv2:symbol "g305_modw" .
 
 mimid_lv2:G401_OSC_1
 	a pg:InputGroup;
