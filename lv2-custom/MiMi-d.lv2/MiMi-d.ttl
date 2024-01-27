@@ -1798,6 +1798,33 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 116 ;
+        lv2:symbol "lfo2ctrl" ;
+        lv2:name "Lfo2Control" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " NONE " ;
+            rdfs:comment "NONE" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label " MODW " ;
+            rdfs:comment "MODW" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label " AFTERT " ;
+            rdfs:comment "AFTERT" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " GENV " ;
+            rdfs:comment "GENV" ;
+        ];
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 14 ;
         lv2:symbol "vfltfactor" ;
         lv2:name "VFltFactor" ;
@@ -1938,6 +1965,33 @@
             rdf:value 1.0 ;
             rdfs:label " KEY " ;
             rdfs:comment "KEY" ;
+        ];
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 115 ;
+        lv2:symbol "lfo1ctrl" ;
+        lv2:name "Lfo1Control" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " NONE " ;
+            rdfs:comment "NONE" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label " MODW " ;
+            rdfs:comment "MODW" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label " AFTERT " ;
+            rdfs:comment "AFTERT" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label " GENV " ;
+            rdfs:comment "GENV" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
