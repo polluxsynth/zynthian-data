@@ -552,27 +552,7 @@
 
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 111 ;
-        lv2:symbol "modWheelAmt" ;
-        lv2:name "ModWheelAmt" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G305_CONTR
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 112 ;
-        lv2:symbol "afterTouchAmt" ;
-        lv2:name "AfterTAmt" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G305_CONTR
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 114 ;
         lv2:symbol "afterTouchScale" ;
         lv2:name "AfterTouchScale" ;
         lv2:default 0.500000 ;
@@ -1798,7 +1778,7 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 116 ;
+        lv2:index 114 ;
         lv2:symbol "lfo2ctrl" ;
         lv2:name "Lfo2Control" ;
         lv2:default 0.000000 ;
@@ -1822,6 +1802,16 @@
             rdfs:comment "GENV" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 116 ;
+        lv2:symbol "lfo2ContrAmt" ;
+        lv2:name "Lfo2ContrAmt" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G302_MOD_LFO2
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -1970,7 +1960,7 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 115 ;
+        lv2:index 113 ;
         lv2:symbol "lfo1ctrl" ;
         lv2:name "Lfo1Control" ;
         lv2:default 0.000000 ;
@@ -1994,6 +1984,16 @@
             rdfs:comment "GENV" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 115 ;
+        lv2:symbol "lfo1ContrAmt" ;
+        lv2:name "Lfo1ContrAmt" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G301_MOD_LFO1
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -2307,7 +2307,7 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 113 ;
+        lv2:index 111 ;
         lv2:symbol "velocityscale" ;
         lv2:name "VelocityScale" ;
         lv2:default 0.500000 ;
