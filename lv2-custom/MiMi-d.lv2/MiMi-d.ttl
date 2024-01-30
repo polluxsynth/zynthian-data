@@ -262,12 +262,12 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label "On" ;
+            rdfs:comment "On" ;
         ];
         pg:group mimid_lv2:G304_BEND ;
     ] ,
@@ -281,12 +281,12 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label "On" ;
+            rdfs:comment "On" ;
         ];
         pg:group mimid_lv2:G304_BEND ;
     ] ,
@@ -310,8 +310,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.20 ;
             rdfs:label " Tri " ;
@@ -345,8 +345,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.20 ;
             rdfs:label " Tri " ;
@@ -408,8 +408,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.14 ;
             rdfs:label "Osc1" ;
@@ -451,8 +451,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.14 ;
             rdfs:label "Osc1" ;
@@ -987,8 +987,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.33 ;
             rdfs:label " Saw " ;
@@ -1373,8 +1373,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.33 ;
             rdfs:label " Saw " ;
@@ -1430,8 +1430,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.25 ;
             rdfs:label "-1 Squ" ;
@@ -1531,12 +1531,12 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label "On" ;
+            rdfs:comment "On" ;
         ];
         pg:group mimid_lv2:G703_DSP ;
     ] ,
@@ -1763,16 +1763,16 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.5 ;
-            rdfs:label " CLOCK " ;
-            rdfs:comment "CLOCK" ;
+            rdfs:label " Clock " ;
+            rdfs:comment "Clock" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " KEY " ;
-            rdfs:comment "KEY" ;
+            rdfs:label " Key " ;
+            rdfs:comment "Key" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
@@ -1786,20 +1786,20 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " NONE " ;
-            rdfs:comment "NONE" ;
+            rdfs:label " None " ;
+            rdfs:comment "None" ;
         ], [
             rdf:value 0.33 ;
-            rdfs:label " MODW " ;
-            rdfs:comment "MODW" ;
+            rdfs:label " Modw " ;
+            rdfs:comment "Modw" ;
         ], [
             rdf:value 0.67 ;
-            rdfs:label " AFTERT " ;
-            rdfs:comment "AFTERT" ;
+            rdfs:label " Aftert " ;
+            rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " GENV " ;
-            rdfs:comment "GENV" ;
+            rdfs:label " Genv " ;
+            rdfs:comment "Genv" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
@@ -1926,12 +1926,12 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "ON" ;
-            rdfs:comment "ON" ;
+            rdfs:label "On" ;
+            rdfs:comment "On" ;
         ];
         pg:group mimid_lv2:G703_DSP ;
     ] ,
@@ -1945,16 +1945,16 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.5 ;
-            rdfs:label " CLOCK " ;
-            rdfs:comment "CLOCK" ;
+            rdfs:label " Clock " ;
+            rdfs:comment "Clock" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " KEY " ;
-            rdfs:comment "KEY" ;
+            rdfs:label " Key " ;
+            rdfs:comment "Key" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
@@ -1968,20 +1968,20 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " NONE " ;
-            rdfs:comment "NONE" ;
+            rdfs:label " None " ;
+            rdfs:comment "None" ;
         ], [
             rdf:value 0.33 ;
-            rdfs:label " MODW " ;
-            rdfs:comment "MODW" ;
+            rdfs:label " Modw " ;
+            rdfs:comment "Modw" ;
         ], [
             rdf:value 0.67 ;
-            rdfs:label " AFTERT " ;
-            rdfs:comment "AFTERT" ;
+            rdfs:label " Aftert " ;
+            rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " GENV " ;
-            rdfs:comment "GENV" ;
+            rdfs:label " Genv " ;
+            rdfs:comment "Genv" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
@@ -2070,12 +2070,12 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " MEM " ;
-            rdfs:comment "MEM" ;
+            rdfs:label " Mem " ;
+            rdfs:comment "Mem" ;
         ];
         pg:group mimid_lv2:G102_KEYASSIGN ;
     ],
@@ -2089,16 +2089,16 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.5 ;
-            rdfs:label "ROB O" ;
-            rdfs:comment "ROB O" ;
+            rdfs:label "Rob O" ;
+            rdfs:comment "Rob O" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "ROB NL" ;
-            rdfs:comment "ROB NL" ;
+            rdfs:label "Rob NL" ;
+            rdfs:comment "Rob NL" ;
         ];
         pg:group mimid_lv2:G102_KEYASSIGN ;
     ],
@@ -2112,12 +2112,12 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " RES " ;
-            rdfs:comment "RES" ;
+            rdfs:label " Res " ;
+            rdfs:comment "Res" ;
         ];
         pg:group mimid_lv2:G102_KEYASSIGN ;
     ],
@@ -2131,16 +2131,16 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label " OFF " ;
-            rdfs:comment "OFF" ;
+            rdfs:label " Off " ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.5 ;
-            rdfs:label " N OFF " ;
-            rdfs:comment "NOTEOFF" ;
+            rdfs:label " N Off " ;
+            rdfs:comment "NoteOff" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "N ON+OFF" ;
-            rdfs:comment "RES" ;
+            rdfs:label "N On+Off" ;
+            rdfs:comment "NoteOnOff" ;
         ];
         pg:group mimid_lv2:G102_KEYASSIGN ;
     ],
@@ -2224,8 +2224,8 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "OFF" ;
-            rdfs:comment "OFF" ;
+            rdfs:label "Off" ;
+            rdfs:comment "Off" ;
         ], [
             rdf:value 0.14 ;
             rdfs:label "Osc1" ;
