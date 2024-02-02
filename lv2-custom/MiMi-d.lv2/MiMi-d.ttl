@@ -313,21 +313,17 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.20 ;
+            rdf:value 0.25 ;
             rdfs:label " Tri " ;
             rdfs:comment "Tri" ;
         ], [
-            rdf:value 0.40 ;
+            rdf:value 0.50 ;
+            rdfs:label "Trap" ;
+            rdfs:comment "Trap" ;
+        ], [
+            rdf:value 0.75 ;
             rdfs:label " Squ " ;
             rdfs:comment "Squ" ;
-        ], [
-            rdf:value 0.60 ;
-            rdfs:label " Sawu " ;
-            rdfs:comment "Sawu" ;
-        ], [
-            rdf:value 0.80 ;
-            rdfs:label " Sawd " ;
-            rdfs:comment "Sawd" ;
         ], [
             rdf:value 1.0 ;
             rdfs:label " S/H " ;
@@ -348,21 +344,17 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.20 ;
+            rdf:value 0.25 ;
             rdfs:label " Tri " ;
             rdfs:comment "Tri" ;
         ], [
-            rdf:value 0.40 ;
+            rdf:value 0.50 ;
+            rdfs:label "Trap" ;
+            rdfs:comment "Trap" ;
+        ], [
+            rdf:value 0.75 ;
             rdfs:label " Squ " ;
             rdfs:comment "Squ" ;
-        ], [
-            rdf:value 0.60 ;
-            rdfs:label " Sawu " ;
-            rdfs:comment "Sawu" ;
-        ], [
-            rdf:value 0.80 ;
-            rdfs:label " Sawd " ;
-            rdfs:comment "Sawd" ;
         ], [
             rdf:value 1.0 ;
             rdfs:label " S/H " ;
@@ -1766,13 +1758,17 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.5 ;
+            rdf:value 0.33 ;
             rdfs:label " Clock " ;
             rdfs:comment "Clock" ;
         ], [
-            rdf:value 1.0 ;
+            rdf:value 0.67 ;
             rdfs:label " Key " ;
             rdfs:comment "Key" ;
+        ], [
+            rdf:value 1.00;
+            rdfs:label "OneShot" ;
+            rdfs:comment "OneShot" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
@@ -1948,13 +1944,17 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.5 ;
+            rdf:value 0.33 ;
             rdfs:label " Clock " ;
             rdfs:comment "Clock" ;
         ], [
-            rdf:value 1.0 ;
+            rdf:value 0.67 ;
             rdfs:label " Key " ;
             rdfs:comment "Key" ;
+        ], [
+            rdf:value 1.00;
+            rdfs:label "OneShot" ;
+            rdfs:comment "OneShot" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
