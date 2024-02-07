@@ -364,6 +364,80 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 117 ;
+        lv2:symbol "lfo1symmetry" ;
+        lv2:name "Lfo1Symmetry" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 118 ;
+        lv2:symbol "lfo2symmetry" ;
+        lv2:name "Lfo2Symmetry" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 119 ;
+        lv2:symbol "lfo1polarity" ;
+        lv2:name "Lfo1Polarity" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " Norm " ;
+            rdfs:comment "Norm" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label " Inv " ;
+            rdfs:comment "Inv" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label " Uni " ;
+            rdfs:comment "Uni" ;
+        ], [
+            rdf:value 1.00;
+            rdfs:label "InvUni" ;
+            rdfs:comment "InvUni" ;
+        ];
+        pg:group mimid_lv2:G301_MOD_LFO1 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 120 ;
+        lv2:symbol "lfo2polarity" ;
+        lv2:name "Lfo2Polarity" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " Norm " ;
+            rdfs:comment "Norm" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label " Inv " ;
+            rdfs:comment "Inv" ;
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label " Uni " ;
+            rdfs:comment "Uni" ;
+        ], [
+            rdf:value 1.00;
+            rdfs:label "InvUni" ;
+            rdfs:comment "InvUni" ;
+        ];
+        pg:group mimid_lv2:G302_MOD_LFO2 ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 24 ;
         lv2:symbol "lfosampleholdwave" ;
         lv2:name "LfoSampleHoldWave_NOTUSED" ;
