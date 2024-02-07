@@ -313,17 +313,53 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.25 ;
+            rdf:value 0.08 ;
+            rdfs:label " Saw " ;
+            rdfs:comment "Saw" ;
+        ], [
+            rdf:value 0.15 ;
+            rdfs:label " T25 " ;
+            rdfs:comment "T25" ;
+        ], [
+            rdf:value 0.23 ;
+            rdfs:label " T33 " ;
+            rdfs:comment "T33" ;
+        ], [
+            rdf:value 0.31 ;
             rdfs:label " Tri " ;
             rdfs:comment "Tri" ;
         ], [
-            rdf:value 0.50 ;
-            rdfs:label "Trap" ;
-            rdfs:comment "Trap" ;
+            rdf:value 0.38 ;
+            rdfs:label " T67 " ;
+            rdfs:comment "T67" ;
         ], [
-            rdf:value 0.75 ;
+            rdf:value 0.46 ;
+            rdfs:label " T75 " ;
+            rdfs:comment "T75" ;
+        ], [
+            rdf:value 0.54 ;
+            rdfs:label " RSaw " ;
+            rdfs:comment "RSaw" ;
+        ], [
+            rdf:value 0.61 ;
+            rdfs:label " Pul25 " ;
+            rdfs:comment "Pul25" ;
+        ], [
+            rdf:value 0.69 ;
+            rdfs:label " Pul33 " ;
+            rdfs:comment "Pul33" ;
+        ], [
+            rdf:value 0.77 ;
             rdfs:label " Squ " ;
             rdfs:comment "Squ" ;
+        ], [
+            rdf:value 0.85 ;
+            rdfs:label " Pul67 " ;
+            rdfs:comment "Pul67" ;
+        ], [
+            rdf:value 0.92 ;
+            rdfs:label "Pul75" ;
+            rdfs:comment "Pul75" ;
         ], [
             rdf:value 1.0 ;
             rdfs:label " S/H " ;
@@ -344,17 +380,53 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.25 ;
+            rdf:value 0.08 ;
+            rdfs:label " Saw " ;
+            rdfs:comment "Saw" ;
+        ], [
+            rdf:value 0.15 ;
+            rdfs:label " T25 " ;
+            rdfs:comment "T25" ;
+        ], [
+            rdf:value 0.23 ;
+            rdfs:label " T33 " ;
+            rdfs:comment "T33" ;
+        ], [
+            rdf:value 0.31 ;
             rdfs:label " Tri " ;
             rdfs:comment "Tri" ;
         ], [
-            rdf:value 0.50 ;
-            rdfs:label "Trap" ;
-            rdfs:comment "Trap" ;
+            rdf:value 0.38 ;
+            rdfs:label " T67 " ;
+            rdfs:comment "T67" ;
         ], [
-            rdf:value 0.75 ;
+            rdf:value 0.46 ;
+            rdfs:label " T75 " ;
+            rdfs:comment "T75" ;
+        ], [
+            rdf:value 0.54 ;
+            rdfs:label " RSaw " ;
+            rdfs:comment "RSaw" ;
+        ], [
+            rdf:value 0.61 ;
+            rdfs:label " Pul25 " ;
+            rdfs:comment "Pul25" ;
+        ], [
+            rdf:value 0.69 ;
+            rdfs:label " Pul33 " ;
+            rdfs:comment "Pul33" ;
+        ], [
+            rdf:value 0.77 ;
             rdfs:label " Squ " ;
             rdfs:comment "Squ" ;
+        ], [
+            rdf:value 0.85 ;
+            rdfs:label " Pul67 " ;
+            rdfs:comment "Pul67" ;
+        ], [
+            rdf:value 0.92 ;
+            rdfs:label "Pul75" ;
+            rdfs:comment "Pul75" ;
         ], [
             rdf:value 1.0 ;
             rdfs:label " S/H " ;
@@ -365,26 +437,6 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 117 ;
-        lv2:symbol "lfo1symmetry" ;
-        lv2:name "Lfo1Symmetry" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G301_MOD_LFO1 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 118 ;
-        lv2:symbol "lfo2symmetry" ;
-        lv2:name "Lfo2Symmetry" ;
-        lv2:default 0.000000 ;
-        lv2:minimum 0.0 ;
-        lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G302_MOD_LFO2 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 119 ;
         lv2:symbol "lfo1polarity" ;
         lv2:name "Lfo1Polarity" ;
         lv2:default 0.000000 ;
@@ -411,7 +463,7 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 120 ;
+        lv2:index 118 ;
         lv2:symbol "lfo2polarity" ;
         lv2:name "Lfo2Polarity" ;
         lv2:default 0.000000 ;
