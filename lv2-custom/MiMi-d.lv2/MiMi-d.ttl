@@ -1888,8 +1888,8 @@
             rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " Genv " ;
-            rdfs:comment "Genv" ;
+            rdfs:label " LFO1 " ;
+            rdfs:comment "LFO1" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
@@ -2074,8 +2074,8 @@
             rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " Genv " ;
-            rdfs:comment "Genv" ;
+            rdfs:label " LFO2 " ;
+            rdfs:comment "LFO2" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
@@ -2252,67 +2252,61 @@
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 98 ;
         lv2:symbol "genattack" ;
-        lv2:name "GenAttack" ;
+        lv2:name "GenAttack_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 99 ;
         lv2:symbol "gendecay" ;
-        lv2:name "GenDecay" ;
+        lv2:name "GenDecay_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 100 ;
         lv2:symbol "gensustain" ;
-        lv2:name "GenSustain" ;
+        lv2:name "GenSustain_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 101 ;
         lv2:symbol "gensustaintime" ;
-        lv2:name "GenSustainTime" ;
+        lv2:name "GenSustainTime_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 102 ;
         lv2:symbol "genrelase" ;
-        lv2:name "GenRelease" ;
+        lv2:name "GenRelease_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-	pg:group mimid_lv2:G603_RELEASE ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 103 ;
         lv2:symbol "genenvamount" ;
-        lv2:name "GenEnvAmount" ;
+        lv2:name "GenEnvAmount_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 104 ;
         lv2:symbol "genenvdest" ;
-        lv2:name "GenEnvDest" ;
+        lv2:name "GenEnvDest_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -2349,13 +2343,12 @@
             rdfs:label "Peak" ;
             rdfs:comment "Peak" ;
         ];
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 105 ;
         lv2:symbol "genenvunipol" ;
-        lv2:name "GenEnvUnipol" ;
+        lv2:name "GenEnvUnipol_NOTUSED" ;
         lv2:default 0.0 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -2368,13 +2361,12 @@
             rdfs:label " UNI " ;
             rdfs:comment "UNI" ;
         ];
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 106 ;
         lv2:symbol "genenvinvert" ;
-        lv2:name "GenEnvInvert" ;
+        lv2:name "GenEnvInvert_NOTUSED" ;
         lv2:default 0.0 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
@@ -2387,17 +2379,15 @@
             rdfs:label " INV " ;
             rdfs:comment "INV" ;
         ];
-	pg:group mimid_lv2:G303_MOD_GENV ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 107 ;
         lv2:symbol "vgenfactor" ;
-        lv2:name "VGenFactor" ;
+        lv2:name "VGenFactor_NOTUSED" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
-        pg:group mimid_lv2:G202_VELOCITY ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
@@ -2458,11 +2448,6 @@ mimid_lv2:G302_MOD_LFO2
 	a pg:InputGroup;
 	lv2:name "LFO2" ;
 	lv2:symbol "g302_mod_lfo2" .
-
-mimid_lv2:G303_MOD_GENV
-	a pg:InputGroup;
-	lv2:name "Gen Env" ;
-	lv2:symbol "g303_mod_genv" .
 
 mimid_lv2:G304_BEND
 	a pg:InputGroup;
