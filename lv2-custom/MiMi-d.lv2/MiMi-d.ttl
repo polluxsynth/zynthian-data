@@ -313,53 +313,37 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.08 ;
+            rdf:value 0.111 ;
             rdfs:label " Saw " ;
             rdfs:comment "Saw" ;
         ], [
-            rdf:value 0.15 ;
-            rdfs:label " T25 " ;
-            rdfs:comment "T25" ;
+            rdf:value 0.222 ;
+            rdfs:label " Fall " ;
+            rdfs:comment "Fall" ;
         ], [
-            rdf:value 0.23 ;
-            rdfs:label " T33 " ;
-            rdfs:comment "T33" ;
-        ], [
-            rdf:value 0.31 ;
+            rdf:value 0.333 ;
             rdfs:label " Tri " ;
             rdfs:comment "Tri" ;
         ], [
-            rdf:value 0.38 ;
-            rdfs:label " T67 " ;
-            rdfs:comment "T67" ;
+            rdf:value 0.444 ;
+            rdfs:label " Rise " ;
+            rdfs:comment "Rise" ;
         ], [
-            rdf:value 0.46 ;
-            rdfs:label " T75 " ;
-            rdfs:comment "T75" ;
-        ], [
-            rdf:value 0.54 ;
+            rdf:value 0.556 ;
             rdfs:label " RSaw " ;
             rdfs:comment "RSaw" ;
         ], [
-            rdf:value 0.61 ;
-            rdfs:label " Pul25 " ;
-            rdfs:comment "Pul25" ;
+            rdf:value 0.667 ;
+            rdfs:label " Pul " ;
+            rdfs:comment "Pul" ;
         ], [
-            rdf:value 0.69 ;
-            rdfs:label " Pul33 " ;
-            rdfs:comment "Pul33" ;
-        ], [
-            rdf:value 0.77 ;
+            rdf:value 0.778 ;
             rdfs:label " Squ " ;
             rdfs:comment "Squ" ;
         ], [
-            rdf:value 0.85 ;
-            rdfs:label " Pul67 " ;
-            rdfs:comment "Pul67" ;
-        ], [
-            rdf:value 0.92 ;
-            rdfs:label "Pul75" ;
-            rdfs:comment "Pul75" ;
+            rdf:value 0.889 ;
+            rdfs:label " RPul " ;
+            rdfs:comment "RPul" ;
         ], [
             rdf:value 1.0 ;
             rdfs:label " S/H " ;
@@ -380,53 +364,37 @@
             rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.08 ;
+            rdf:value 0.111 ;
             rdfs:label " Saw " ;
             rdfs:comment "Saw" ;
         ], [
-            rdf:value 0.15 ;
-            rdfs:label " T25 " ;
-            rdfs:comment "T25" ;
+            rdf:value 0.222 ;
+            rdfs:label " Fall " ;
+            rdfs:comment "Fall" ;
         ], [
-            rdf:value 0.23 ;
-            rdfs:label " T33 " ;
-            rdfs:comment "T33" ;
-        ], [
-            rdf:value 0.31 ;
+            rdf:value 0.333 ;
             rdfs:label " Tri " ;
             rdfs:comment "Tri" ;
         ], [
-            rdf:value 0.38 ;
-            rdfs:label " T67 " ;
-            rdfs:comment "T67" ;
+            rdf:value 0.444 ;
+            rdfs:label " Rise " ;
+            rdfs:comment "Rise" ;
         ], [
-            rdf:value 0.46 ;
-            rdfs:label " T75 " ;
-            rdfs:comment "T75" ;
-        ], [
-            rdf:value 0.54 ;
+            rdf:value 0.556 ;
             rdfs:label " RSaw " ;
             rdfs:comment "RSaw" ;
         ], [
-            rdf:value 0.61 ;
-            rdfs:label " Pul25 " ;
-            rdfs:comment "Pul25" ;
+            rdf:value 0.667 ;
+            rdfs:label " Pul " ;
+            rdfs:comment "Pul" ;
         ], [
-            rdf:value 0.69 ;
-            rdfs:label " Pul33 " ;
-            rdfs:comment "Pul33" ;
-        ], [
-            rdf:value 0.77 ;
+            rdf:value 0.778 ;
             rdfs:label " Squ " ;
             rdfs:comment "Squ" ;
         ], [
-            rdf:value 0.85 ;
-            rdfs:label " Pul67 " ;
-            rdfs:comment "Pul67" ;
-        ], [
-            rdf:value 0.92 ;
-            rdfs:label "Pul75" ;
-            rdfs:comment "Pul75" ;
+            rdf:value 0.889 ;
+            rdfs:label " RPul " ;
+            rdfs:comment "RPul" ;
         ], [
             rdf:value 1.0 ;
             rdfs:label " S/H " ;
