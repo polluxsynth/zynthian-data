@@ -1884,12 +1884,12 @@
             rdfs:comment "Modw" ;
         ], [
             rdf:value 0.67 ;
-            rdfs:label " Aftert " ;
+            rdfs:label "Aftert" ;
             rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " LFO1 " ;
-            rdfs:comment "LFO1" ;
+            rdfs:label "Delay" ;
+            rdfs:comment "Delay" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
@@ -2070,12 +2070,12 @@
             rdfs:comment "Modw" ;
         ], [
             rdf:value 0.67 ;
-            rdfs:label " Aftert " ;
+            rdfs:label "Aftert" ;
             rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label " LFO2 " ;
-            rdfs:comment "LFO2" ;
+            rdfs:label "Delay" ;
+            rdfs:comment "Delay" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
