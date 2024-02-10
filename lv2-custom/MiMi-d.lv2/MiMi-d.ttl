@@ -1888,8 +1888,8 @@
             rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "Delay" ;
-            rdfs:comment "Delay" ;
+            rdfs:label " Vel " ;
+            rdfs:comment "Vel" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
@@ -2074,8 +2074,8 @@
             rdfs:comment "Aftert" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "Delay" ;
-            rdfs:comment "Delay" ;
+            rdfs:label " Vel " ;
+            rdfs:comment "Vel" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
