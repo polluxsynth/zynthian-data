@@ -497,33 +497,41 @@
             rdfs:label "Off" ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.14 ;
+            rdf:value 0.111 ;
             rdfs:label "Osc1" ;
             rdfs:comment "Osc1" ;
         ], [
-            rdf:value 0.28 ;
+            rdf:value 0.222 ;
             rdfs:label "Osc1+2" ;
             rdfs:comment "Osc1+2" ;
         ], [
-            rdf:value 0.43 ;
+            rdf:value 0.333 ;
             rdfs:label "Osc2" ;
             rdfs:comment "Osc2" ;
         ], [
-            rdf:value 0.57 ;
+            rdf:value 0.444 ;
             rdfs:label "PW1" ;
             rdfs:comment "PW1" ;
         ], [
-            rdf:value 0.71 ;
+            rdf:value 0.556 ;
             rdfs:label "PW1+2" ;
             rdfs:comment "PW1+2" ;
         ], [
-            rdf:value 0.86 ;
+            rdf:value 0.667 ;
             rdfs:label "PW2" ;
             rdfs:comment "PW2" ;
         ], [
-            rdf:value 1.0 ;
+            rdf:value 0.778 ;
             rdfs:label "Filt" ;
             rdfs:comment "Filt" ;
+        ], [
+            rdf:value 0.889 ;
+            rdfs:label "Peak" ;
+            rdfs:comment "Peak" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "Bmod" ;
+            rdfs:comment "Bmod" ;
         ];
         pg:group mimid_lv2:G301_MOD_LFO1 ;
     ] ,
@@ -540,33 +548,41 @@
             rdfs:label "Off" ;
             rdfs:comment "Off" ;
         ], [
-            rdf:value 0.14 ;
+            rdf:value 0.111 ;
             rdfs:label "Osc1" ;
             rdfs:comment "Osc1" ;
         ], [
-            rdf:value 0.28 ;
+            rdf:value 0.222 ;
             rdfs:label "Osc1+2" ;
             rdfs:comment "Osc1+2" ;
         ], [
-            rdf:value 0.43 ;
+            rdf:value 0.333 ;
             rdfs:label "Osc2" ;
             rdfs:comment "Osc2" ;
         ], [
-            rdf:value 0.57 ;
+            rdf:value 0.444 ;
             rdfs:label "PW1" ;
             rdfs:comment "PW1" ;
         ], [
-            rdf:value 0.71 ;
+            rdf:value 0.556 ;
             rdfs:label "PW1+2" ;
             rdfs:comment "PW1+2" ;
         ], [
-            rdf:value 0.86 ;
+            rdf:value 0.667 ;
             rdfs:label "PW2" ;
             rdfs:comment "PW2" ;
         ], [
-            rdf:value 1.0 ;
+            rdf:value 0.778 ;
             rdfs:label "Filt" ;
             rdfs:comment "Filt" ;
+        ], [
+            rdf:value 0.889 ;
+            rdfs:label "Peak" ;
+            rdfs:comment "Peak" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "Bmod" ;
+            rdfs:comment "Bmod" ;
         ];
         pg:group mimid_lv2:G302_MOD_LFO2 ;
     ] ,
