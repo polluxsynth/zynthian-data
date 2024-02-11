@@ -695,6 +695,25 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 119 ;
+        lv2:symbol "osckeysync" ;
+        lv2:name "OscKeySync" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " Free " ;
+            rdfs:comment "Free" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "KeySync" ;
+            rdfs:comment "KeySync" ;
+        ];
+        pg:group mimid_lv2:G404_OSC_COM ;
+    ],
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 36 ;
         lv2:symbol "pitchquant" ;
         lv2:name "PitchQuant_NOTUSED" ;
