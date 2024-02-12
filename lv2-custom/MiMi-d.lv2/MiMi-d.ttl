@@ -2275,6 +2275,25 @@
     ],
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 120 ;
+        lv2:symbol "envrst" ;
+        lv2:name "EnvRst" ;
+        lv2:default 0.0 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "FreeRun" ;
+            rdfs:comment "FreeRun" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "AtkReset" ;
+            rdfs:comment "AtkReset" ;
+        ];
+        pg:group mimid_lv2:G102_KEYASSIGN ;
+    ],
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 97 ;
         lv2:symbol "panspread" ;
         lv2:name "PanSpread" ;
