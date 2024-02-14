@@ -262,31 +262,75 @@
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "Off" ;
-            rdfs:comment "Off" ;
+            rdfs:label " 0 " ;
+            rdfs:comment "0" ;
+        ], [
+            rdf:value 0.090 ;
+            rdfs:label " 1 " ;
+            rdfs:comment "1" ;
+        ], [
+            rdf:value 0.181 ;
+            rdfs:label " 2 " ;
+            rdfs:comment "3" ;
+        ], [
+            rdf:value 0.273 ;
+            rdfs:label " 4 " ;
+            rdfs:comment "4" ;
+        ], [
+            rdf:value 0.363 ;
+            rdfs:label " 5 " ;
+            rdfs:comment "5" ;
+        ], [
+            rdf:value 0.455 ;
+            rdfs:label " 6 " ;
+            rdfs:comment "6" ;
+        ], [
+            rdf:value 0.545 ;
+            rdfs:label " 7 " ;
+            rdfs:comment "7" ;
+        ], [
+            rdf:value 0.636 ;
+            rdfs:label " 8 " ;
+            rdfs:comment "8" ;
+        ], [
+            rdf:value 0.727 ;
+            rdfs:label " 9 " ;
+            rdfs:comment "9" ;
+        ], [
+            rdf:value 0.818 ;
+            rdfs:label " 10 " ;
+            rdfs:comment "10" ;
+        ], [
+            rdf:value 0.909 ;
+            rdfs:label " 11 " ;
+            rdfs:comment "11" ;
         ], [
             rdf:value 1.0 ;
-            rdfs:label "On" ;
-            rdfs:comment "On" ;
+            rdfs:label " 12 " ;
+            rdfs:comment "12" ;
         ];
         pg:group mimid_lv2:G304_BEND ;
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 11 ;
-        lv2:symbol "bendosc1only" ;
-        lv2:name "BendOsc1Only" ;
+        lv2:symbol "benddest" ;
+        lv2:name "BendDest" ;
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
         lv2:scalePoint [
             rdf:value 0.0 ;
-            rdfs:label "Off" ;
+            rdfs:label " Off " ;
             rdfs:comment "Off" ;
         ], [
+            rdf:value 0.5 ;
+            rdfs:label " Osc1 " ;
+            rdfs:comment "Osc1" ;
+        ], [
             rdf:value 1.0 ;
-            rdfs:label "On" ;
-            rdfs:comment "On" ;
+            rdfs:label "Osc1+2" ;
+            rdfs:comment "Osc1+2" ;
         ];
         pg:group mimid_lv2:G304_BEND ;
     ] ,
