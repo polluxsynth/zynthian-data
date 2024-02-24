@@ -1688,6 +1688,25 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 121 ;
+        lv2:symbol "fenvlinear" ;
+        lv2:name "FenvLinear" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label "OFF" ;
+            rdfs:comment "OFF" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "ON" ;
+            rdfs:comment "ON" ;
+        ];
+        pg:group mimid_lv2:G502_FLTR_CONF ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
         lv2:index 51 ;
         lv2:symbol "oversample" ;
         lv2:name "Oversample" ;
@@ -2515,6 +2534,34 @@
         lv2:default 0.000000 ;
         lv2:minimum 0.0 ;
         lv2:maximum 1.0 ;
+        pg:group mimid_lv2:G503_VCA ;
+    ] ,
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 122 ;
+        lv2:symbol "envmode" ;
+        lv2:name "EnvMode" ;
+        lv2:default 0.000000 ;
+        lv2:minimum 0.0 ;
+        lv2:maximum 1.0 ;
+        lv2:scalePoint [
+            rdf:value 0.0 ;
+            rdfs:label " Exp " ;
+            rdfs:comment "Exp" ;
+        ], [
+            rdf:value 0.33 ;
+            rdfs:label " Lin " ;
+            rdfs:comment "Lin" ;
+        ], [
+        ], [
+            rdf:value 0.67 ;
+            rdfs:label "LinExp" ;
+            rdfs:comment "LinExp" ;
+        ], [
+            rdf:value 1.0 ;
+            rdfs:label "LinX5" ;
+            rdfs:comment "LinX5" ;
+        ];
         pg:group mimid_lv2:G503_VCA ;
     ] ;
 
